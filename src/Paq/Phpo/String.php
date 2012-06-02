@@ -1,6 +1,6 @@
 <?php
 
-namespace Paq;
+namespace Paq\Phpo;
 
 class String
 {
