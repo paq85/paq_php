@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<phpunit bootstrap="vendor/autoload.php"
+<phpunit bootstrap="testsBootstrap.php"
          colors="false"
          convertErrorsToExceptions="true"
          convertNoticesToExceptions="true"
@@ -7,7 +7,7 @@
          stopOnFailure="false">
     <testsuites>
         <testsuite>
-            <directory>tests/Php</directory>
+            <directory>./../Php</directory>
         </testsuite>
     </testsuites>
 </phpunit>
